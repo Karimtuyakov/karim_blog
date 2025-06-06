@@ -3,83 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karim Blog</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Карим | Блог</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Roboto', sans-serif;
-      background: #f4f4f8;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
     }
-
     header {
-      background: #4a90e2;
-      color: white;
-      padding: 20px;
-      border-radius: 10px;
       text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
+      padding: 50px 20px 20px;
     }
-
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #00acee;
+      margin-bottom: 20px;
+    }
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
+      margin: 0;
+      font-size: 2.5rem;
     }
-
-    p.subtitle {
-      font-size: 1.1em;
-      color: #e0e0e0;
+    p {
+      margin: 10px 0 20px;
+      font-size: 1.2rem;
+      color: #aaa;
     }
-
-    section {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #999;
-    }
-
-    a {
-      color: #4a90e2;
+    a.telegram {
+      display: inline-block;
+      background: #00acee;
+      color: white;
       text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 10px;
     }
-
-    a:hover {
-      text-decoration: underline;
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Добро пожаловать в блог Карима!</h1>
-    <p class="subtitle">Место, где живут идеи 🚀</p>
+    <img src="your-photo.jpg" alt="Моё фото" />
+    <h1>Карим</h1>
+    <p>Жизнь одна 🌍</p>
+    <a class="telegram" href="https://t.me/Padarjon_m" target="_blank">Написать мне в Telegram</a>
   </header>
 
-  <section>
-    <h2>О чём будет блог?</h2>
-    <p>Здесь я буду делиться мыслями, идеями, заметками и проектами.  
-    Всё — от кода до жизни. Оставайтесь на связи!</p>
-  </section>
-
   <footer>
-    © 2025 Karim Tuyakov. Сделано с любовью ❤️
+    &copy; 2025 Карим. Все права защищены.
   </footer>
+
 </body>
 </html>
